@@ -11,6 +11,11 @@
     font-family: yangjin;
 }
 
+body {
+    background-color: rgba(250, 222, 177, 0.4);
+
+}
+
 .container {
     margin: 0 auto;
     display: flex;
@@ -18,21 +23,43 @@
     justify-content: center;
     align-items: center;
     max-width: 600px;
+    /* background-color: #191c19; */
+    background-color: rgba(250, 222, 177, 0.6);
+    /* color: white; */
 }
 #main-poster {
     width: 100%;
 }
 #intro {
-    margin: 16px 12px;
+    margin: 40px 12px;
     width: 100%;
 }
 #intro h2 {
     margin-bottom: 12px;
+    text-align: center;
 }
 #intro table {
     width: 100%;
+    height: 200px;
+    padding: 8px 16px;
 }
-#time td:not(:first-child) {
+#intro table tr {
+    margin: 4px 0
+}
+#date td:not(:first-child) {
     /* width: 25%; */
     text-align: left;
+}
+.time {
+    text-decoration: underline;
+}
+#reservation-link-row {
+    text-align: center;
+}
+#reservation-link {
+    text-decoration: none;
+    color: #222;
+}
+#reservation-link:hover {
+    text-decoration: underline;
 }
