@@ -27,8 +27,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    transition: 0.2s;
 }
 .d-day-label {
     font-weight: 600;
     margin-right: 8px;
+    font-size: 0.8rem;
 }

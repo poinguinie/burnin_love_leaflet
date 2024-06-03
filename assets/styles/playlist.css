@@ -11,17 +11,28 @@
     margin: 12px 4%;
     padding: 12px;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-direction: column;
     /* border: 1px solid black; */
     /* background-image: linear-gradient(to top left, #bbb, #fff 90%, #bbb 95% ); */
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background: rgba(184, 184, 184, 0);
+    box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
+    backdrop-filter: opacity( 20px );
+    /* -webkit-backdrop-filter: blur( 20px ); */
+    border-radius: 10px;
+}
+#playlist > div:first-child {
+    padding-bottom: 12px;
 }
 #playlist > div:last-child {
-    border-left: 1px solid #444;
-    padding-left: 12px;
+    border-top: 1px solid #444;
+    padding-top: 12px;
+    /* border-left: 1px solid #444; */
+    /* padding-left: 12px; */
 }
 #playlist > div {
-    width: 50%;
+    /* width: 50%; */
 }
 #playlist > div > h4 {
     margin-left: 16px;

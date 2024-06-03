@@ -18,8 +18,15 @@
     width: 90%;
     min-height: 400px;
     margin: 12px 8%;
+    padding-top: 8px;
+    padding-bottom: 8px;
     text-align: center;
-    background-color: white;
+    background: rgba(184, 184, 184, 0);
+    box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
+    backdrop-filter: opacity( 20px );
+    /* -webkit-backdrop-filter: blur( 20px ); */
+    border-radius: 10px;
+    /* background-color: white; */
 }
 #pair-table-area table thead {
     margin-bottom: 4px;
@@ -27,4 +34,5 @@
 }
 #pair-table-area table tbody tr td:first-child {
     text-align: left;
+    padding-left: 8px;
 }
