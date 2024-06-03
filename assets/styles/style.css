@@ -33,34 +33,8 @@ body {
     margin: 40px 12px;
     width: 100%;
 }
-#intro h2, #intro h3, #intro h4 {
-    /* font-weight: 500; */
-    margin-bottom: 12px;
-}
 #intro > * {
     text-align: center;
-}
-#intro table {
-    width: 100%;
-    height: 200px;
-    padding: 8px 16px;
-}
-#intro table tr {
-    margin: 4px 0
-}
-#date td:not(:first-child) {
-    /* width: 25%; */
-    text-align: left;
-}
-.time {
-    text-decoration: underline;
-}
-#reservation-link {
-    text-decoration: none;
-    color: #222;
-}
-#reservation-link:hover {
-    text-decoration: underline;
 }
 
 #intro-header {
@@ -68,11 +42,17 @@ body {
     font-weight: 500;
     font-style: normal;
     font-size: 3rem;
+    margin-bottom: 1.2rem;
 }
 .intro-box {
     margin-bottom: 32px;
 }
 .intro-box h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+.intro-box span {
+    font-size: 0.8rem;
+    line-height: 0.2rem;
 }

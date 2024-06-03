@@ -10,6 +10,8 @@
 #d-day-area {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 #d-day-timer {
     display: flex;
