@@ -1,18 +1,17 @@
-@font-face {
-    font-family: 'yangjin';
-    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal; }
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: yangjin;
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 body {
-    background-color: rgba(250, 222, 177, 0.4);
+    background-color: rgba(250, 222, 177, 0.2);
 
 }
 
@@ -34,8 +33,11 @@ body {
     margin: 40px 12px;
     width: 100%;
 }
-#intro h2 {
+#intro h2, #intro h3, #intro h4 {
+    /* font-weight: 500; */
     margin-bottom: 12px;
+}
+#intro > * {
     text-align: center;
 }
 #intro table {
@@ -53,13 +55,24 @@ body {
 .time {
     text-decoration: underline;
 }
-#reservation-link-row {
-    text-align: center;
-}
 #reservation-link {
     text-decoration: none;
     color: #222;
 }
 #reservation-link:hover {
     text-decoration: underline;
+}
+
+#intro-header {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+}
+.intro-box {
+    margin-bottom: 32px;
+}
+.intro-box h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
 }

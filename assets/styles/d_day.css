@@ -1,0 +1,32 @@
+#d-day-header {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #d40c0c;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#d-day-area {
+    display: flex;
+    flex-direction: column;
+}
+#d-day-timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.d-day-box {
+    width: 1.4rem;
+    height: 2.4rem;
+    background-color: brown;
+    margin: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-day-label {
+    font-weight: 600;
+    margin-right: 8px;
+}
