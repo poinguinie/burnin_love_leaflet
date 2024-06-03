@@ -1,0 +1,29 @@
+#pair-table-area {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+#pair-table-area h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+#pair-table-area table {
+    font-size: 0.8rem;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+}
+#pair-table-area table tbody tr {
+    box-sizing: border-box;
+}
+#pair-table-area table tbody tr:first-child {
+
+}
+#pair-table-area table tbody tr td:first-child {
+    text-align: left;
+}

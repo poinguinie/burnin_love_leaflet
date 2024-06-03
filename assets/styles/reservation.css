@@ -1,0 +1,14 @@
+#go-to-reservation {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    background-color: #E03838;
+    color: white;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
