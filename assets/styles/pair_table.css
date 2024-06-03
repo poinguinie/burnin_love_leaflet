@@ -1,6 +1,7 @@
 #pair-table-area {
     margin-top: 32px;
     width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,15 +15,15 @@
 }
 #pair-table-area table {
     font-size: 0.8rem;
-    width: 70%;
+    width: 90%;
+    min-height: 400px;
+    margin: 12px 8%;
     text-align: center;
     background-color: white;
 }
-#pair-table-area table tbody tr {
-    box-sizing: border-box;
-}
-#pair-table-area table tbody tr:first-child {
-
+#pair-table-area table thead {
+    margin-bottom: 4px;
+    border-bottom: 4px solid transparent;
 }
 #pair-table-area table tbody tr td:first-child {
     text-align: left;

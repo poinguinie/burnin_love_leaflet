@@ -8,7 +8,7 @@
     font-weight: 600;
 }
 #playlist {
-    margin: 12px 8%;
+    margin: 12px 4%;
     padding: 12px;
     display: flex;
     flex-direction: row;
@@ -22,6 +22,9 @@
 }
 #playlist > div {
     width: 50%;
+}
+#playlist > div > h4 {
+    margin-left: 16px;
 }
 #playlist > div > li {
     font-size: 1rem;
