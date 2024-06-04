@@ -1,3 +1,16 @@
+:root {
+    --chad: #ff5668;
+    --natalie: #00a4e5;
+    --dennis: #ffb140;
+    --jim: #8ad9c1;
+    --sandra: #ff96c7;
+    --sylvia: #fd6236;
+    --dean: #0064a2;
+    --lorraine: #ffee77;
+    --matilda: #c1567f;
+    --earl: #1298a1;
+}
+
 #profile-msg-area {
     width: 100%;
     display: flex;
@@ -11,7 +24,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 8%;
+    margin: 0 6%;
 }
 
 .profile-card {
@@ -31,4 +44,56 @@
 
 .profile-message {
     font-size: 0.8rem;
+    position: relative;
+    /* background-color: gray; */
+    z-index: 100;
+    /* color: #0a100e; */
+    /* text-shadow: 1px 1px 2px #0a100e, 1px 1px 2px #0a100e, 1px 1px 2px #0a100e, 1px 1px 2px #0a100e; */
+}
+
+.profile-message::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* opacity: 0.8; */
+    min-width: 40px;
+    /* background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png'); */
+    background-image: url('https://www.transparenttextures.com/patterns/cardboard.png');
+    /* background-image: url('https://www.transparenttextures.com/patterns/grunge-wall.png'); */
+    /* background-size: contain; */
+}
+
+#chad .profile-message::before {
+    background-color: var(--chad);
+}
+#natalie .profile-message::before {
+    background-color: var(--natalie);
+}
+#dennis .profile-message::before {
+    background-color: var(--dennis);
+}
+#jim .profile-message::before {
+    background-color: var(--jim);
+}
+#sandra .profile-message::before {
+    background-color: var(--sandra);
+}
+#sylvia .profile-message::before {
+    background-color: var(--sylvia);
+}
+#dean .profile-message::before {
+    background-color: var(--dean);
+}
+#lorraine .profile-message::before {
+    background-color: var(--lorraine);
+}
+#matilda .profile-message::before {
+    background-color: var(--matilda);
+}
+#earl .profile-message::before {
+    background-color: var(--earl);
 }

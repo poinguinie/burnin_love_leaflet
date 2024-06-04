@@ -23,23 +23,25 @@
 </head>
 <body>
     <div class="container">
-        <div id="d-day-area">
-            <div id="d-day-header">
-                🔥 맘이 타오르기까지! 🔥
-            </div>
-            <div id="d-day-timer">
-                <div class="d-day-box day-box" id="day-1-box"></div>
-                <div class="d-day-box day-box" id="day-2-box"></div>
-                <div class="d-day-label">일</div>
-                <div class="d-day-box hour-box" id="hour-1-box"></div>
-                <div class="d-day-box hour-box" id="hour-2-box"></div>
-                <div class="d-day-label">시간</div>
-                <div class="d-day-box minute-box" id="minute-1-box"></div>
-                <div class="d-day-box minute-box" id="minute-2-box"></div>
-                <div class="d-day-label">분</div>
-                <div class="d-day-box sec-box" id="sec-1-box"></div>
-                <div class="d-day-box sec-box" id="sec-2-box"></div>
-                <div class="d-day-label">초</div>
+        <div id="d-day">
+            <div id="d-day-area">
+                <div id="d-day-header">
+                    🔥 맘이 타오르기까지! 🔥
+                </div>
+                <div id="d-day-timer">
+                    <div class="d-day-box day-box" id="day-1-box"></div>
+                    <div class="d-day-box day-box" id="day-2-box"></div>
+                    <div class="d-day-label">일</div>
+                    <div class="d-day-box hour-box" id="hour-1-box"></div>
+                    <div class="d-day-box hour-box" id="hour-2-box"></div>
+                    <div class="d-day-label">시간</div>
+                    <div class="d-day-box minute-box" id="minute-1-box"></div>
+                    <div class="d-day-box minute-box" id="minute-2-box"></div>
+                    <div class="d-day-label">분</div>
+                    <div class="d-day-box sec-box" id="sec-1-box"></div>
+                    <div class="d-day-box sec-box" id="sec-2-box"></div>
+                    <div class="d-day-label">초</div>
+                </div>
             </div>
         </div>
         <img src="./assets/images/poster_1.jpg" alt="Poster" id="main-poster">
@@ -89,7 +91,10 @@
                 <div class="profile-message">이젠 너가 내 음악이라고!</div>
             </div>
             <div id="natalie" class="profile">
-                <div class="profile-message">오토바이 뒤에 태우고<br>운전은 내가 하고!</div>
+                <div class="profile-message">
+                    남자랑 같이 있어요,<br>
+                    세상에서 제일 멋진!
+                </div>
                 <div class="profile-card">
                     <img src="assets/images/profile_sample.png" alt="profile_sample" class="profile-img">
                     <span>나탈리</span>
@@ -316,6 +321,21 @@
         reservation_button.addEventListener('click', () => {
             window.open('https://forms.gle/Rs3y4P68ctpotKAs6')
         });
+    </script>
+    <script>
+        let scrolledBackground = document.createElement('style')
+        scrolledBackground.innerHTML = `body::after {
+            background-position: 50% 20%;
+        }`;
+        document.head.appendChild(scrolledBackground);
+        window.addEventListener('scroll', () => {
+            let scrollLocation = document.documentElement.scrollTop;
+            scrolledBackground.innerHTML = scrolledBackground.innerHTML.replace(
+                /background-position: 50% [0-9]+%/,
+                `background-position: 50% ${(20 + Math.ceil((scrollLocation /  document.body.scrollHeight) * 30))}%`
+                // (scrollLocation /  document.body.scrollHeight)
+            )
+        })
     </script>
 </body>
 </html>

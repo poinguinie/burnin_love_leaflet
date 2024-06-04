@@ -25,7 +25,7 @@
     padding-bottom: 8px;
     text-align: center;
     background-color: #7ec27e;
-    box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
+    box-shadow: 0 8px 12px 0 rgb(105, 173, 105);
     /* backdrop-filter: opacity( 20px ); */
     /* -webkit-backdrop-filter: blur( 20px ); */
     border-radius: 10px;
