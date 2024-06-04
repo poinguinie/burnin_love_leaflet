@@ -10,7 +10,7 @@ const minute_2_box = document.getElementById('minute-2-box');
 const sec_1_box = document.getElementById('sec-1-box');
 const sec_2_box = document.getElementById('sec-2-box');
 
-const dday = new Date(2024, 6, 20, 13, 0, 0);
+const dday = new Date(2024, 6, 21, 16, 0, 0);
 
 
 function timer(){
