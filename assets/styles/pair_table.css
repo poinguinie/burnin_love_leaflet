@@ -7,6 +7,9 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
+    background-color: #B5DEB5;
+    color: #fff;
+    z-index: 2;
 }
 #pair-table-area h3 {
     text-align: center;
@@ -23,7 +26,7 @@
     text-align: center;
     background: rgba(184, 184, 184, 0);
     box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
-    backdrop-filter: opacity( 20px );
+    /* backdrop-filter: opacity( 20px ); */
     /* -webkit-backdrop-filter: blur( 20px ); */
     border-radius: 10px;
     /* background-color: white; */

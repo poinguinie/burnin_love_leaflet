@@ -23,7 +23,8 @@ body {
     align-items: center;
     max-width: 600px;
     /* background-color: #191c19; */
-    background-color: rgba(250, 222, 177, 0.6);
+    background-color: #FECABE;
+    z-index: 1;
     /* color: white; */
 }
 #main-poster {

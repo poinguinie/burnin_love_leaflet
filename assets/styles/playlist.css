@@ -1,6 +1,7 @@
 #playlist-area {
     width: 100%;
-
+    background-color: #E27FA2;
+    color: white;
 }
 .playlist-header {
     text-align: center;
@@ -17,7 +18,7 @@
     /* background-image: linear-gradient(to top left, #bbb, #fff 90%, #bbb 95% ); */
     /* background-color: whitesmoke; */
     background: rgba(184, 184, 184, 0);
-    box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.6);
     backdrop-filter: opacity( 20px );
     /* -webkit-backdrop-filter: blur( 20px ); */
     border-radius: 10px;

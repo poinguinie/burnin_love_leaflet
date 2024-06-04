@@ -2,6 +2,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #E59398;
+    color: white;
 }
 
 .profile {
