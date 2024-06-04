@@ -3,13 +3,13 @@
     position: fixed;
     bottom: 0;
     height: 8%;
-    background-color: #E689B4;
+    background-color: #D2629A;
     color: white;
     z-index: 200;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #ecb2cd;
+    border-top: 1px solid rgb(235, 212, 222);
     /* box-shadow: 2px -2px 4px #ecb2cd; */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;

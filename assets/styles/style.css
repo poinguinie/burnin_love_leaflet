@@ -34,10 +34,8 @@ body {
     align-items: center;
     width: 100vw;
     max-width: 400px;
-    /* background-color: #191c19; */
     background-color: #FECABE;
     z-index: 1;
-    /* color: white; */
 }
 .container .box {
     padding-top: 24px;
