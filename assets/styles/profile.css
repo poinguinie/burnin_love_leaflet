@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 12px 8%;
+    margin: 0 8%;
 }
 
 .profile-card {
@@ -26,9 +26,9 @@
 }
 .profile-card span {
     font-size: 0.8rem;
+    /* font-weight: 700; */
 }
 
 .profile-message {
     font-size: 0.8rem;
-    font-weight: 700;
 }

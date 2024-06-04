@@ -3,56 +3,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+KR:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+@font-face {
+    font-family: "중나좋체";
+    font-weight: normal;
+    src: url("../fonts/중나좋체/중나좋체_Light.ttf");
+}
+@font-face {
+    font-family: "중나좋체";
+    font-weight: bold;
+    src: url("../fonts/중나좋체/중나좋체_Medium.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "중나좋체", "Noto Sans KR", sans-serif;
 }
 
 body {
     background-color: rgba(250, 222, 177, 0.2);
-
 }
 
 .container {
     margin: 0 auto;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
+    width: 100vw;
+    max-width: 500px;
     /* background-color: #191c19; */
     background-color: #FECABE;
     z-index: 1;
     /* color: white; */
 }
-#main-poster {
-    width: 100%;
-}
-#intro {
-    margin: 40px 12px;
-    width: 100%;
-}
-#intro > * {
-    text-align: center;
-}
-
-#intro-header {
-    font-family: "Great Vibes", cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 3rem;
-    margin-bottom: 1.2rem;
-}
-.intro-box {
-    margin-bottom: 32px;
-}
-.intro-box h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 0.6rem;
-}
-.intro-box span {
-    font-size: 0.8rem;
+.container .box {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }

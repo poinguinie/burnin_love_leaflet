@@ -1,0 +1,42 @@
+#intro {
+    /* margin: 40px 12px; */
+    /* padding: 0 12px; */
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    /* background-color: #A8D9A6; */
+}
+#intro::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
+    opacity: 0.4;
+    z-index: -1;
+}
+#intro > * {
+    text-align: center;
+}
+
+#intro-header {
+    padding-top: 24px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.intro-box {
+    margin-bottom: 32px;
+}
+.intro-box h3 {
+    font-size: 1.2rem;
+    /* font-weight: 700; */
+    /* font-weight: 600; */
+    margin-bottom: 0.6rem;
+}
+.intro-box span {
+    font-size: 0.8rem;
+}

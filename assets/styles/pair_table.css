@@ -1,12 +1,11 @@
 #pair-table-area {
-    margin-top: 32px;
     width: 100%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
     background-color: #B5DEB5;
     color: #fff;
     z-index: 2;
@@ -15,6 +14,7 @@
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 8px;
+    text-shadow: 1px 1px 1px #7ec27e, 1px 1px 1px #7ec27e, 1px 1px 1px #7ec27e, 1px 1px 1px #7ec27e;
 }
 #pair-table-area table {
     font-size: 0.8rem;
@@ -24,7 +24,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
-    background: rgba(184, 184, 184, 0);
+    background-color: #7ec27e;
     box-shadow: 0 8px 32px 0 rgba(184, 184, 184, 0.37);
     /* backdrop-filter: opacity( 20px ); */
     /* -webkit-backdrop-filter: blur( 20px ); */

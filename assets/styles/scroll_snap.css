@@ -3,5 +3,5 @@
     scroll-snap-type: y mandatory;
 }
 .container div {
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
 }
