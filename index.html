@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./styles/reservation.css">
     <link rel="stylesheet" href="./styles/scroll.css">
     <link rel="stylesheet" href="./styles/scroll_snap.css">
-    <!-- For Debug -->
+    <!-- For Debug (No Cache) -->
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="Pragma" content="no-chche" />
 </head>
@@ -301,29 +301,31 @@
         </div> -->
         <div id="casting-board-area" class="box">
             <h2>[Cast]</h2>
-            <div class="casting-board">
-                <img src="./assets/images/poster_sample.png" alt="poster sample">
-                <div class="casting-info">
-                    <div class="castring-board-date-time">
-                        <div class="casting-board-date">7월 20일</div>
-                        <div class="casting-board-time">13시</div>
-                    </div>
-                    <div class="castring-board-date-time">
-                        <div class="casting-board-date">7월 21일</div>
-                        <div class="casting-board-time">16시</div>
+            <div class="casting-boards">
+                <div class="casting-board">
+                    <img src="./assets/images/poster_sample.png" alt="poster sample">
+                    <div class="casting-info">
+                        <div class="castring-board-date-time">
+                            <div class="casting-board-date">7월 20일</div>
+                            <div class="casting-board-time">13시</div>
+                        </div>
+                        <div class="castring-board-date-time">
+                            <div class="casting-board-date">7월 21일</div>
+                            <div class="casting-board-time">16시</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="casting-board">
-                <img src="./assets/images/poster_sample.png" alt="poster sample">
-                <div class="casting-info">
-                    <div class="castring-board-date-time">
-                        <div class="casting-board-date">7월 20일</div>
-                        <div class="casting-board-time">13시</div>
-                    </div>
-                    <div class="castring-board-date-time">
-                        <div class="casting-board-date">7월 21일</div>
-                        <div class="casting-board-time">16시</div>
+                <div class="casting-board">
+                    <img src="./assets/images/poster_sample.png" alt="poster sample">
+                    <div class="casting-info">
+                        <div class="castring-board-date-time">
+                            <div class="casting-board-date">7월 20일</div>
+                            <div class="casting-board-time">13시</div>
+                        </div>
+                        <div class="castring-board-date-time">
+                            <div class="casting-board-date">7월 21일</div>
+                            <div class="casting-board-time">16시</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -365,7 +367,6 @@
         }).render();
     </script>
     <script>
-        // https://forms.gle/Rs3y4P68ctpotKAs6
         let reservation_button = document.getElementById("go-to-reservation");
         reservation_button.addEventListener('click', () => {
             window.open('https://forms.gle/Rs3y4P68ctpotKAs6')
