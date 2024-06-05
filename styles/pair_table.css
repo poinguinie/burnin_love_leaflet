@@ -17,7 +17,7 @@
 #pair-table-area table {
     font-size: var(--font-regular-size);
     width: 94%;
-    /* min-height: 400px; */
+    min-height: 400px;
     margin: 12px 4px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -46,14 +46,6 @@
     z-index: -1;
     border-spacing: 0;
 }
-#pair-table-area table thead {
-    margin-bottom: 4px;
-    border-bottom: 4px solid transparent;
-}
-#pair-table-area table thead tr {
-    /* border-bottom: 4px solid rgba(222,222,222,0.4); */
-}
-/* #pair-table-area table tbody tr:first-child td:not(:first-child) { */
 #pair-table-area table tbody tr:first-child {
     border-top: 1px solid rgba(90, 28, 10, 0.4);
 }
