@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    color: #5a1c0a;
+    color: var(--primary-color);
 }
 
 #intro-header {
@@ -26,6 +26,7 @@
     margin-left: 12px;
     margin-right: 12px;
     margin-bottom: 32px;
+    text-align: center;
 }
 .intro-box:last-child {
     margin-bottom: 24px;
@@ -33,7 +34,7 @@
 .intro-box h3 {
     text-align: center;
     font-size: var(--font-title-size);
-    margin-bottom: 6px;
+    margin-bottom: 12px;
     letter-spacing: 1px;
 }
 .intro-box span {

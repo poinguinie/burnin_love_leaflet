@@ -14,6 +14,11 @@
     src: url("../fonts/중나좋체/중나좋체_Medium.ttf");
 }
 
+:root {
+    /* --primary-color: #5a1c0a; */
+    --primary-color: #441508;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -57,5 +62,5 @@ h2 {
     text-align: center;
     margin-bottom: 12px;
     letter-spacing: 4px;
-    color: #5a1c0a;
+    color: var(--primary-color);
 }
