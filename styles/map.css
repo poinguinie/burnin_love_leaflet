@@ -21,30 +21,44 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 #map h2 {
     margin-top: 24px;
     font-size: var(--font-title-size);
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884;
+    color: #5a1c0a;
+    /* text-shadow: 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884; */
 }
 #map_detail {
     width: 80%;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
-    color: white;
+    color: #5a1c0a;
     font-size: var(--font-regular-size);
     margin: 8px 8px;
 }
-#map-area strong {
-    text-shadow: 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884;
+.kakao_map {
+    position: relative;
+    padding: 8px;
+    margin-bottom: 8px;
 }
-#map-area span, #map-area strong {
-    color: white;
+.kakao_map::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: 1px solid white;
+    background-color: white !important;
+    opacity: 0.4;
+    z-index: -1;
 }
-#map_detail > span {
-    margin: 4px 0;
+#map-area strong, #map-area span {
+    font-weight: 500;
+    color: #5a1c0a;
+    /* text-shadow: 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884; */
 }

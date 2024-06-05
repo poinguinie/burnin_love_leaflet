@@ -1,0 +1,55 @@
+#go-to-reservation {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    /* background-color: #D2629A; */
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top: 1px solid rgb(235, 212, 222); */
+    /* box-shadow: 2px -2px 4px #ecb2cd; */
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    cursor: pointer;
+    letter-spacing: 8px;
+    /* font-size: var(--font-title-size); */
+    font-size: var(--font-regular-size);
+    font-weight: bold;
+}
+.reservation-box {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    margin: 12px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reservation-box::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px;
+    z-index: -1;
+    background-color: #D3618D;
+    /* opacity: 0.8; */
+}
+#go-to-reservation::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+}
