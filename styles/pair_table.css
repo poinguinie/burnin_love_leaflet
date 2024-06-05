@@ -17,7 +17,7 @@
 #pair-table-area table {
     font-size: var(--font-regular-size);
     width: 94%;
-    min-height: 400px;
+    /* min-height: 400px; */
     margin: 12px 4px;
     padding-top: 8px;
     padding-bottom: 8px;
