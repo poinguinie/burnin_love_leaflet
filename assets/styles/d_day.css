@@ -19,7 +19,7 @@
 #d-day-header {
     width: 90%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: var(--font-regular-size);
     font-weight: 600;
     color: #FF669C;
     text-shadow: 1px 1px 1px white, 1px 1px 1px white, 1px 1px 1px white, 1px 1px 1px white;
@@ -75,10 +75,10 @@
     justify-content: center;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: var(--font-regular-size);
 }
 .d-day-label {
     font-weight: 600;
     margin-right: 8px;
-    font-size: 0.6rem;
+    font-size: var(--font-caption-size);
 }

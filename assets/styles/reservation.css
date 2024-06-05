@@ -3,7 +3,8 @@
     position: fixed;
     bottom: 0;
     height: 8%;
-    background-color: #D2629A;
+    /* background-color: #D2629A; */
+    background-color: #D3618D;
     color: white;
     z-index: 200;
     display: flex;
@@ -14,7 +15,8 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     cursor: pointer;
-    letter-spacing: 0.2rem;
-    font-size: 1rem;
+    letter-spacing: 8px;
+    /* font-size: var(--font-title-size); */
+    font-size: var(--font-regular-size);
     font-weight: bold;
 }
