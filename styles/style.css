@@ -6,12 +6,12 @@
 @font-face {
     font-family: "중나좋체";
     font-weight: normal;
-    src: url("../fonts/중나좋체/중나좋체_Light.ttf");
+    src: url("../assets/fonts/중나좋체/중나좋체_Light.ttf");
 }
 @font-face {
     font-family: "중나좋체";
     font-weight: bold;
-    src: url("../fonts/중나좋체/중나좋체_Medium.ttf");
+    src: url("../assets/fonts/중나좋체/중나좋체_Medium.ttf");
 }
 
 :root {
@@ -38,10 +38,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    max-width: 400px;
+    max-width: 500px;
     /* background-color: #FECABE; */
     /* background-color: #F4B2C6; */
-    background-color: #EDEDED;
+    /* background-color: #EDEDED; */
+    background-color: #ffffff;
     z-index: 1;
 }
 .container::before {

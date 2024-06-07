@@ -56,13 +56,13 @@
 .profile-message {
     font-size: var(--font-regular-size);
     position: relative;
-    margin-left: 18px;
-    margin-right: 18px;
-    padding: 0 4px;
+    margin-left: 12px;
+    margin-right: 12px;
+    /* padding: 0 4px; */
     word-break: keep-all;
     z-index: 100;
-
-    text-align: center;
+    line-height: 28px;
+    /* text-align: center; */
 }
 
 .profile-message::before {

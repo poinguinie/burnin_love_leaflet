@@ -4,7 +4,7 @@
 #intro {
     position: relative;
     width: 100%;
-    height: calc(var(--vh, 1vh) * 100);
+    height: calc(var(--vh, 1vh) * 95);
     max-height: 800px;
     padding: 0;
     display: flex;
@@ -40,6 +40,7 @@
 .intro-box span {
     word-break: keep-all;
     text-align: center;
+    line-height: 24px;
     /* margin-left: 8px; */
     font-size: var(--font-regular-size);
 }
