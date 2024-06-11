@@ -1,3 +1,8 @@
+:root {
+    --heart-size: 8px;
+    --heart-color: #FF5886;
+}
+
 #go-to-reservation {
     width: 100vw;
     position: fixed;
@@ -44,4 +49,118 @@
     height: 100%;
     background-color: transparent;
     z-index: -1;
+}
+
+#go-to-reservation .heart-area {
+    position: fixed;
+    right: 15%;
+    bottom: 7%;
+}
+
+.hearts {
+    position: relative;
+}
+
+.hearts .heart {
+    position: relative;
+    position: absolute;
+    width: var(--heart-size);
+    height: var(--heart-size);
+    transform: rotate(45deg);
+    background: var(--heart-color);
+    opacity: 0;
+	animation-duration:1.7s;
+	-webkit-animation-duration:1.7s;
+	animation-timing-function:ease-in-out;
+	animation-iteration-count:infinite;
+	animation-direction:normal;
+	animation-play-state:running;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:normal;
+	-webkit-animation-play-state:running;
+    animation-name:hearts_animation;
+	-webkit-animation-name:hearts_animation;
+}
+.hearts .heart::before{
+    content: "";
+    width: var(--heart-size);
+    height: var(--heart-size);
+    position: absolute;
+    left: -50%;
+    border-radius: 50%;
+    background: var(--heart-color);
+}
+.hearts .heart::after{
+    content: "";
+    width: var(--heart-size);
+    height: var(--heart-size);
+    top: -50%;
+    position: absolute;
+    border-radius: 50%;
+    background: var(--heart-color);
+}
+
+.hearts .heart:nth-child(1) {
+    animation-delay: 1.25s;
+    -webkit-animation-delay:1.25s;
+    left: 10px;
+}
+
+.hearts .heart:nth-child(2) {
+    animation-delay: 0.75s;
+    -webkit-animation-delay:0.75s;
+    left: 22px;
+}
+
+.hearts .heart:nth-child(3) {
+    animation-delay: 1.5s;
+    -webkit-animation-delay:1.75s;
+    left: 30px;
+}
+
+@keyframes hearts_animation {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+    25% {
+        top: -12px;
+        opacity: 0.5;
+    }
+    50% {
+        top: -24px;
+        opacity: 1;
+    }
+    75% {
+        top: -36px;
+        opacity: 0.7;
+    }
+    100% {
+        top: -48px;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes hearts_animation {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+    25% {
+        top: -12px;
+        opacity: 0.5;
+    }
+    50% {
+        top: -24px;
+        opacity: 1;
+    }
+    75% {
+        top: -36px;
+        opacity: 0.7;
+    }
+    100% {
+        top: -48px;
+        opacity: 0;
+    }
 }

@@ -181,30 +181,33 @@
             <h2>[Casting Board]</h2>
             <div class="casting-boards">
                 <div class="casting-board">
-                    <img src="./assets/images/poster_sample.png" alt="poster sample">
+                    <h2>[Burning Team]</h2>
+
                     <div class="casting-info">
                         <div class="castring-board-date-time">
                             <div class="casting-board-date">7월 20일</div>
-                            <div class="casting-board-time">13시</div>
+                            <div class="casting-board-time">12시 00분</div>
                         </div>
                         <div class="castring-board-date-time">
                             <div class="casting-board-date">7월 21일</div>
-                            <div class="casting-board-time">16시</div>
+                            <div class="casting-board-time">15시 30분</div>
                         </div>
                     </div>
+                    <img src="./assets/images/castboard-all.png" alt="poster sample">
                 </div>
-                <div class="casting-board">
-                    <img src="./assets/images/poster_sample.png" alt="poster sample">
+                <div class="casting-board bottom">
+                    <h2>[Love Team]</h2>
                     <div class="casting-info">
                         <div class="castring-board-date-time">
                             <div class="casting-board-date">7월 20일</div>
-                            <div class="casting-board-time">13시</div>
+                            <div class="casting-board-time">11시 30분</div>
                         </div>
                         <div class="castring-board-date-time">
                             <div class="casting-board-date">7월 21일</div>
-                            <div class="casting-board-time">16시</div>
+                            <div class="casting-board-time">14시 30분</div>
                         </div>
                     </div>
+                    <img src="./assets/images/castboard-all.png" alt="poster sample">
                 </div>
             </div>
         </div>
@@ -345,6 +348,13 @@
             <div class="reservation-box">
                 공연 예매하러 가기!
             </div>
+            <div class="heart-area">
+                <div class="hearts">
+                    <div class="heart"></div>
+                    <div class="heart"></div>
+                    <div class="heart"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -371,21 +381,6 @@
         reservation_button.addEventListener('click', () => {
             window.open('https://forms.gle/Rs3y4P68ctpotKAs6')
         });
-    </script>
-    <script>
-        let scrolledBackground = document.createElement('style')
-        scrolledBackground.innerHTML = `body::after {
-            background-position: 50% 20%;
-        }`;
-        document.head.appendChild(scrolledBackground);
-        window.addEventListener('scroll', () => {
-            let scrollLocation = document.documentElement.scrollTop;
-            scrolledBackground.innerHTML = scrolledBackground.innerHTML.replace(
-                /background-position: 50% [0-9]+%/,
-                `background-position: 50% ${(20 + Math.ceil((scrollLocation /  document.body.scrollHeight) * 30))}%`
-                // (scrollLocation /  document.body.scrollHeight)
-            )
-        })
     </script>
     <script>
         let vh = window.innerHeight * 0.01;

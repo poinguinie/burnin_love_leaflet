@@ -3,7 +3,7 @@ body::after {
     height: 100%;
     background-image: url("../assets/images/poster_2.png");
     background-size: cover;
-    /* background-position: 50% 20%; */
+    background-position: 50% 10%;
     position: fixed;
     top: 0;
     left: 0;
