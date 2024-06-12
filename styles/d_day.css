@@ -14,7 +14,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #86C08A;
+    background-color: #A3D1A2;
+    opacity: 0.9;
 }
 #d-day-header {
     width: 90%;
@@ -56,7 +57,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #86C08A;
+    background-color: #A3D1A2;
 }
 #d-day-timer {
     display: flex;

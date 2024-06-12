@@ -10,7 +10,7 @@ const minute_2_box = document.getElementById('minute-2-box');
 const sec_1_box = document.getElementById('sec-1-box');
 const sec_2_box = document.getElementById('sec-2-box');
 
-const dday = new Date(2024, 6, 21, 16, 0, 0);
+const dday = new Date(2024, 6, 21, 14, 30, 0);
 
 
 function timer(){
@@ -18,7 +18,10 @@ function timer(){
     const timeGap = dday - now
 
     if (timeGap <= 0) {
+
         clearInterval(countdownInterval);
+        const d_day_box = document.getElementById("d-day");
+        d_day_box.style.display = 'none';
     }
 
     const remainDay = Math.floor(timeGap / (1000 * 60 * 60 * 24));

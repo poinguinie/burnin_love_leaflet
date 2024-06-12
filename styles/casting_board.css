@@ -10,9 +10,9 @@
     flex-direction: column;
 }
 .casting-board {
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
     padding: 8px 12px;
 
     border-radius: 10px;
@@ -23,7 +23,11 @@
     flex-direction: row; */
 }
 .casting-board h2 {
+    margin-top: 8px;
+    margin-bottom: 12px;
     font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 6px;
 }
 .casting-info {
     width: 100%;
