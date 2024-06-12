@@ -10,6 +10,42 @@
     --matilda: #c1567f;
     --earl: #1298a1;
 }
+/* Font Size */
+@media (max-width: 767px){
+	/* Mobile */
+    :root {
+        --profile-image-size: 120px;
+        --profile-image-area-width: 140px;
+        --profile-image-area-height: 140px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Tablet vertical */
+    :root {
+        --profile-image-size: 200px;
+        --profile-image-area-width: 240px;
+        --profile-image-area-height: 240px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Tablet horizontal */
+    :root {
+        --profile-image-size: 140px;
+        --profile-image-area-width: 180px;
+        --profile-image-area-height: 180px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* Desktop */
+    :root {
+        --profile-image-size: 200px;
+        --profile-image-area-width: 240px;
+        --profile-image-area-height: 240px;
+    }
+}
 
 #profile-msg-area {
     width: 100%;
@@ -47,27 +83,29 @@
 
 .profile-images {
     position: relative;
-    width: 125px;
-    height: 140px;
+    width: var(--profile-image-area-width);
+    height: var(--profile-image-area-height);
     /* border: 1px solid var(--chad); */
     border-bottom: 6px solid var(--chad);
     border-radius: 6px;
     margin-bottom: 6px;
 }
 .profile-img {
-    max-width: 100px;
+    /* max-width: 100px; */
+    max-height: var(--profile-image-size);
 }
 .profile-images .profile-img {
     position: absolute;
-    height: 120px;
+    /* height: 120px; */
+    /* max-height: var(--profile-image-size); */
 }
 .profile-images .profile-img:nth-child(1) {
     bottom: 0;
-    left: -25px;
+    left: -15%;
 }
 .profile-images .profile-img:nth-child(2) {
     bottom: 0;
-    left: 50px;
+    left: 40%;
 }
 .profile-card span {
     font-size: var(--font-caption-size);
@@ -77,14 +115,14 @@
 .profile-message {
     font-size: var(--font-regular-size);
     position: relative;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 12%;
+    margin-right: 12%;
     word-break: keep-all;
     z-index: 100;
     line-height: 28px;
 }
 
-.profile-message::before {
+/* .profile-message::before {
     content: "";
     margin-right: 8px;
     top: 0;
@@ -127,4 +165,4 @@
 }
 #earl .profile-message::before {
     border-color: var(--earl);
-}
+} */
