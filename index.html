@@ -28,7 +28,7 @@
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="Pragma" content="no-chche" />
 </head>
-<body>
+<body oncontextmenu="return false">
     <div class="container">
         <div id="d-day">
             <div id="d-day-area">
@@ -263,19 +263,38 @@
         </div>
         <div id="go-to-reservation">
             <div class="reservation-box">
-                공연 예매하러 가기!
-            </div>
-            <div class="heart-area">
-                <div class="hearts">
-                    <div class="heart"></div>
-                    <div class="heart"></div>
-                    <div class="heart"></div>
+                <div class="text">공연 예매하러 가기!</div>
+                <div class="heart-area">
+                    <div class="hearts">
+                        <div class="heart"></div>
+                        <div class="heart"></div>
+                        <div class="heart"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Load Scripts -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script>
+        $(dodument).ready(function() {
+            $(document).bind("contextmenu", function(e) {
+                return false;
+            });
+
+            //pc F12 개발자도구 비활성
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+    </script>
     <script src="scripts/d_day_timer.js"></script>
     <!--
         * 카카오맵 - 약도서비스

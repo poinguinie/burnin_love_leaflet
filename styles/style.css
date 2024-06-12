@@ -28,6 +28,7 @@
 
 body {
     background-color: rgba(250, 222, 177, 0.2);
+    -webkit-touch-callout:none;
 }
 
 .container {

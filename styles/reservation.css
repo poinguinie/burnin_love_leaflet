@@ -4,6 +4,7 @@
 }
 
 #go-to-reservation {
+    max-width: 500px;
     width: 100vw;
     position: fixed;
     bottom: 0;
@@ -51,9 +52,9 @@
 }
 
 #go-to-reservation .heart-area {
-    position: fixed;
-    right: 15%;
-    bottom: 7%;
+    position: absolute;
+    right: 12%;
+    top: 7%;
 }
 
 .hearts {
