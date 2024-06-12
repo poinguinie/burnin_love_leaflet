@@ -34,6 +34,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 8px;
+    padding-top: 12px;
 }
 .casting-board-date {
     margin-bottom: 2px;
@@ -41,6 +42,31 @@
 .casting-board-date, .casting-board-time {
     color: white;
     font-size: var(--font-regular-size);
+}
+.casting-board-time {
+    position: relative;
+    background-color: rgb(86, 146, 90);
+    padding: 2px 8px;
+}
+.casting-board-time::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -10px;
+    height: 100%;
+    width: 12px;
+    transform: rotate(10deg);
+    background-color: rgba(150, 202, 153, 1);
+}
+.casting-board-time::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -10px;
+    height: 100%;
+    width: 12px;
+    transform: rotate(10deg);
+    background-color: rgba(150, 202, 153, 1);
 }
 .castring-board-date-time {
     display: flex;
