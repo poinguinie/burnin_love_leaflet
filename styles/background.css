@@ -10,6 +10,5 @@ body::after {
     content: "";
     z-index: -1;
     opacity: 0.4;
-    /* backdrop-filter: opacity( 20px ); */
     background-attachment: scroll;
 }

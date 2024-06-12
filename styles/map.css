@@ -4,17 +4,7 @@
     height: fit-content;
     padding: 0;
     margin: 0;
-    /* margin-bottom: 40px; */
 }
-/* #map::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png');
-    opacity: 0.4;
-    z-index: -1;
-} */
 #map-area {
     width: 100%;
     display: flex;
@@ -28,13 +18,11 @@
     font-size: var(--font-title-size);
     text-align: center;
     color: var(--primary-color);
-    /* text-shadow: 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884; */
 }
 #map_detail {
     width: 80%;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     color: var(--primary-color);
     font-size: var(--font-regular-size);
     margin: 8px 8px;
@@ -60,5 +48,4 @@
 #map-area strong, #map-area span {
     font-weight: 500;
     color: var(--primary-color);
-    /* text-shadow: 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884, 1px 1px 1px #d65884; */
 }

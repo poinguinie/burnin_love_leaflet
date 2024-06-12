@@ -58,16 +58,13 @@
     position: relative;
     margin-left: 12px;
     margin-right: 12px;
-    /* padding: 0 4px; */
     word-break: keep-all;
     z-index: 100;
     line-height: 28px;
-    /* text-align: center; */
 }
 
 .profile-message::before {
     content: "";
-    /* position: absolute; */
     margin-right: 8px;
     top: 0;
     left: 0;
@@ -79,15 +76,9 @@
     border-radius: 6px;
     border: 4px solid;
     background-color: rgba(0, 0, 0, 0.2);
-    /* border: 2px solid; */
-    /* background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png'); */
-    /* background-image: url('https://www.transparenttextures.com/patterns/cardboard.png'); */
-    /* background-image: url('https://www.transparenttextures.com/patterns/grunge-wall.png'); */
-    /* background-size: contain; */
 }
 #chad .profile-message::before {
     border-color: var(--chad);
-    /* box-shadow: 2px 2px 2px var(--chad); */
 }
 #natalie .profile-message::before {
     border-color: var(--natalie);

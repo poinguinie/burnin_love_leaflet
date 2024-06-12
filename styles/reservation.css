@@ -38,7 +38,6 @@
     border-radius: 8px;
     z-index: -1;
     background-color: #D3618D;
-    /* opacity: 0.8; */
 }
 #go-to-reservation::before {
     content: "";
