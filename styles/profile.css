@@ -105,11 +105,11 @@
 }
 .profile-images .profile-img:nth-child(1) {
     bottom: 0;
-    left: -20%;
+    left: -15%;
 }
 .profile-images .profile-img:nth-child(2) {
     bottom: 0;
-    left: 35%;
+    left: 30%;
 }
 .profile-card span {
     font-size: var(--font-caption-size);
@@ -137,6 +137,9 @@
 }
 #natalie .profile-images {
     border-bottom: 6px solid var(--natalie);
+}
+#dennis .profile-images {
+    border-bottom: 6px solid var(--dennis);
 }
 
 /* .profile-message::before {
