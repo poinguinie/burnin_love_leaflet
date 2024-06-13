@@ -113,6 +113,9 @@
 }
 .profile-card span {
     font-size: var(--font-caption-size);
+    padding: 2px 12px;
+    color: white;
+    position: relative;
     /* font-weight: 700; */
 }
 
@@ -135,8 +138,14 @@
 #chad .profile-images img:nth-child(2) {
     filter: brightness(100%);
 }
+#chad .profile-card span {
+    background-color: var(--chad);
+}
 #natalie .profile-images {
     border-bottom: 6px solid var(--natalie);
+}
+#natalie .profile-card span {
+    background-color: var(--natalie);
 }
 #dennis .profile-images {
     border-bottom: 6px solid var(--dennis);
@@ -147,7 +156,95 @@
 #dennis .profile-images .profile-img:nth-child(2) {
     left: 40%;
 }
-
+#dennis .profile-card span {
+    background-color: var(--dennis);
+}
+#sandra .profile-images {
+    border-bottom: 6px solid var(--sandra);
+}
+#sandra .profile-images .profile-img:nth-child(1) {
+    left: 25%;
+    filter: brightness(120%);
+}
+#sandra .profile-card span {
+    background-color: var(--sandra);
+}
+#lorraine .profile-images {
+    border-bottom: 6px solid var(--lorraine);
+}
+#lorraine .profile-images .profile-img:nth-child(1) {
+    left: 0%;
+    filter: brightness(110%);
+}
+#lorraine .profile-images .profile-img:nth-child(2) {
+    left: 50%;
+    filter: brightness(110%);
+}
+#lorraine .profile-card span {
+    background-color: var(--lorraine);
+    color: var(--primary-color);
+}
+#dean .profile-images {
+    border-bottom: 6px solid var(--lorraine);
+}
+#dean .profile-images .profile-img:nth-child(2) {
+    filter: brightness(130%);
+}
+#dean .profile-images {
+    border-bottom: 6px solid var(--lorraine);
+}
+#dean .profile-card span {
+    background-color: var(--dean);
+}
+#sylvia .profile-images {
+    border-bottom: 6px solid var(--sylvia);
+}
+#sylvia .profile-images .profile-img:nth-child(1) {
+    left: -5%;
+}
+#sylvia .profile-images .profile-img:nth-child(2) {
+    left: 35%;
+}
+#sylvia .profile-card span {
+    background-color: var(--sylvia);
+}
+#jim .profile-images {
+    border-bottom: 6px solid var(--jim);
+}
+#jim .profile-images .profile-img:nth-child(1) {
+    left: -5%;
+}
+#jim .profile-images .profile-img:nth-child(2) {
+    left: 45%;
+}
+#jim .profile-card span {
+    background-color: var(--jim);
+}
+#matilda .profile-images {
+    border-bottom: 6px solid var(--matilda);
+}
+#matilda .profile-images .profile-img:nth-child(1) {
+    left: 25%;
+}
+#matilda .profile-card span {
+    background-color: var(--matilda);
+}
+#earl .profile-images {
+    border-bottom: 6px solid var(--earl);
+}
+#earl .profile-images .profile-img:nth-child(1) {
+    left: 0%;
+}
+#earl .profile-images .profile-img:nth-child(2) {
+    left: 35%;
+}
+#earl .profile-card span {
+    background-color: var(--earl);
+}
+#earl .profile-message {
+    font-weight: 600;
+    letter-spacing: 4px;
+}
 /* .profile-message::before {
     content: "";
     margin-right: 8px;
