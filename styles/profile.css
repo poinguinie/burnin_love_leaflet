@@ -56,6 +56,12 @@
     position: relative;
 }
 
+#profile-msg-area h2 {
+    letter-spacing: 8px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
 /* #profile-msg-area::before {
     content: "";
     position: absolute;
